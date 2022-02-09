@@ -41,7 +41,7 @@ export default function Cost() {
             r="22.4902"
             transform="rotate(-27.3707 32.77 38.9181)"
             stroke="white"
-            stroke-width="3.64706"
+            strokeWidth="3.64706"
           />
           <circle
             cx="55.8235"
@@ -49,7 +49,7 @@ export default function Cost() {
             r="23.7059"
             transform="rotate(-27.3707 55.8235 54.3619)"
             stroke="white"
-            stroke-width="1.21569"
+            strokeWidth="1.21569"
           />
         </svg>
 
@@ -69,7 +69,7 @@ export default function Cost() {
             <path
               d="M1 1L15.9645 16.573L25.2668 5.24719L36.3891 16.573L48.5225 5.24719L62.0714 19"
               stroke="#E7E7E7"
-              stroke-width="2.57143"
+              strokeWidth="2.57143"
             />
           </svg>
 
@@ -127,7 +127,7 @@ export default function Cost() {
           <path
             d="M50.1501 1.37305L42.1111 20.1198L30.1181 13.2082L24.0602 26.9217L9.56516 20.953L2.17093 37.6196"
             stroke="#E7E7E7"
-            stroke-width="4"
+            strokeWidth="4"
           />
         </svg>
       </CostWrap>

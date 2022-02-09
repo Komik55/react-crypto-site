@@ -23,13 +23,13 @@ export default function CostAbout() {
             <path
               d="M43.3731 59.9866L22.8623 37.2413L52.8157 30.851L43.3731 59.9866Z"
               stroke="#E7E7E7"
-              stroke-width="3"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeLinejoin="round"
             />
             <path
               d="M54.2687 68.4128L31.438 43.0949L64.7792 35.9819L54.2687 68.4128Z"
               stroke="#E7E7E7"
-              stroke-linejoin="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>
@@ -56,7 +56,7 @@ export default function CostAbout() {
               <path
                 d="M61.2983 5.13477L45.507 18.046L38.0644 6.37507L26.3557 15.7381L16.2585 3.74722L2.00012 15.1117"
                 stroke="#E7E7E7"
-                stroke-width="4"
+                strokeWidth="4"
               />
             </svg>
           </Text>

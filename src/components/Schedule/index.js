@@ -17,6 +17,7 @@ export default function Schedule() {
   } else if (count <= 0) {
     setCount(18);
   }
+
   return (
     <ScheduleWrap id="schedule">
       <div>
@@ -36,7 +37,7 @@ export default function Schedule() {
             <ScheduleList
               key={el.id}
               className="render__fetch"
-              style={{ height: `${el.id === 7 && "42vh"}` }}
+              todo={"1adsdsadads"}
             >
               <div
                 className="shadow"

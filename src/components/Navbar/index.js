@@ -41,23 +41,23 @@ export default function Navbar() {
             <path
               d="M16.6262 6.12402H4.37842"
               stroke="#fff"
-              stroke-opacity="0.78"
-              stroke-width="1.74969"
-              stroke-linecap="round"
+              strokeOpacity="0.78"
+              strokeWidth="1.74969"
+              strokeLinecap="round"
             />
             <path
               d="M16.6262 10.498H7.87779"
               stroke="#fff"
-              stroke-opacity="0.78"
-              stroke-width="1.74969"
-              stroke-linecap="round"
+              strokeOpacity="0.78"
+              strokeWidth="1.74969"
+              strokeLinecap="round"
             />
             <path
               d="M16.6262 14.8723H11.3772"
               stroke="#fff"
-              stroke-opacity="0.78"
-              stroke-width="1.74969"
-              stroke-linecap="round"
+              strokeOpacity="0.78"
+              strokeWidth="1.74969"
+              strokeLinecap="round"
             />
           </svg>
         )}

@@ -2,9 +2,10 @@ import { Container, Text, Title } from "../Elements";
 import styled from "styled-components";
 import { ShadowZ } from "../TopBanner/TopBannerElements";
 
-export const shadowZ = styled.div`
+export const MainShadowZ = styled.div`
   width: 700px;
   height: 500px;
+  left: -300px;
   background: linear-gradient(
     180deg,
     rgba(84, 84, 212, 0.1) 0%,
@@ -14,6 +15,9 @@ export const shadowZ = styled.div`
   border-radius: 233.5px;
   position: absolute;
   z-index: -10;
+  @media (max-width: 420px) {
+    display: none;
+  }
 `;
 export const FaqContainer = styled(Container)`
   & div {
@@ -73,7 +77,7 @@ export const FaqContainer = styled(Container)`
   }
 
   @media (min-width: 900px) and (max-width: 1300px) {
-    min-height: 60vh;
+    min-height: 40vh;
   }
   @media (max-width: 950px) {
     min-height: 40vh;
@@ -83,7 +87,7 @@ export default function Faq() {
   return (
     <>
       <FaqContainer id="faq">
-        <shadowZ></shadowZ>
+        <MainShadowZ></MainShadowZ>
         <svg
           className="svg__play"
           width="66"
@@ -95,14 +99,14 @@ export default function Faq() {
           <path
             d="M20.075 48.8573L20.924 12.5902L51.9077 31.459L20.075 48.8573Z"
             stroke="#E7E7E7"
-            stroke-width="1.87563"
-            stroke-linejoin="round"
+            strokeWidth="1.87563"
+            strokeLinejoin="round"
           />
           <path
             d="M22.9231 63.0546L23.8228 24.6224L56.6563 44.6177L22.9231 63.0546Z"
             stroke="#E7E7E7"
-            stroke-width="0.62521"
-            stroke-linejoin="round"
+            strokeWidth="0.62521"
+            strokeLinejoin="round"
           />
         </svg>
 

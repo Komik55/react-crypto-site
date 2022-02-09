@@ -75,7 +75,7 @@ export default function TopBanner() {
             <path
               d="M2 2L25.2781 26.2247L39.7483 8.60674L57.0497 26.2247L75.9238 8.60674L97 30"
               stroke="#E7E7E7"
-              stroke-width="4"
+              strokeWidth="4"
             />
           </svg>
           <svg
@@ -89,13 +89,13 @@ export default function TopBanner() {
             <path
               d="M32.5135 78.1455L33.8715 20.1376L83.4287 50.3176L32.5135 78.1455Z"
               stroke="#E7E7E7"
-              stroke-width="3"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeLinejoin="round"
             />
             <path
               d="M37.0689 100.854L38.508 39.3827L91.0239 71.3644L37.0689 100.854Z"
               stroke="#E7E7E7"
-              stroke-linejoin="round"
+              strokeLinejoin="round"
             />
           </svg>
           <svg
@@ -106,7 +106,7 @@ export default function TopBanner() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="20" cy="20" r="18.5" stroke="white" stroke-width="3" />
+            <circle cx="20" cy="20" r="18.5" stroke="white" strokeWidth="3" />
             <circle cx="31" cy="40" r="19.5" stroke="white" />
           </svg>
           <svg
@@ -138,7 +138,7 @@ export default function TopBanner() {
           <path
             d="M1 1L15.9645 16.573L25.2668 5.24719L36.3891 16.573L48.5225 5.24719L62.0714 19"
             stroke="#E7E7E7"
-            stroke-width="2.57143"
+            strokeWidth="2.57143"
           />
         </svg>
         <svg
@@ -149,13 +149,13 @@ export default function TopBanner() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="14" cy="14" r="12.95" stroke="white" stroke-width="2.1" />
+          <circle cx="14" cy="14" r="12.95" stroke="white" strokeWidth="2.1" />
           <circle
             cx="21.7002"
             cy="28"
             r="13.65"
             stroke="white"
-            stroke-width="0.7"
+            strokeWidth="0.7"
           />
         </svg>
 
@@ -170,14 +170,14 @@ export default function TopBanner() {
           <path
             d="M20.075 48.8573L20.924 12.5902L51.9077 31.459L20.075 48.8573Z"
             stroke="#E7E7E7"
-            stroke-width="1.87563"
-            stroke-linejoin="round"
+            strokeWidth="1.87563"
+            strokeLinejoin="round"
           />
           <path
             d="M22.9231 63.0546L23.8228 24.6224L56.6563 44.6177L22.9231 63.0546Z"
             stroke="#E7E7E7"
-            stroke-width="0.62521"
-            stroke-linejoin="round"
+            strokeWidth="0.62521"
+            strokeLinejoin="round"
           />
         </svg>
         <svg
@@ -221,7 +221,7 @@ export default function TopBanner() {
           </BannerFooterMainPlay>
           <h2>проникни в самую глубь крипты</h2>
         </BannerFooterMain>
-        {modal && <Modal setModal={setModal}/>}
+        {modal && <Modal setModal={setModal} />}
       </BannerFooter>
     </Banner>
   );

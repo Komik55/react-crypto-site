@@ -17,12 +17,13 @@ export const ScheduleWrap = styled.section`
   }
 
   & .shadow {
-    top: 180px;
+    top: -25%;
+
     position: absolute;
     z-index: -5;
     font-size: 19rem;
     padding-bottom: 12px;
-    color: #1e1e20;
+    color: #2f2f2f;
     font-weight: bolder;
   }
   & .render__fetch {
@@ -73,12 +74,10 @@ export const ScheduleWrap = styled.section`
   }
   @media (max-width: 480px) {
     & .render__fetch {
+      position: relative;
       padding: 15px 0;
       display: flex;
-      @media (max-width: 480px) {
-        height: 34vh;
-        margin-top: -55px;
-      }
+
       & .sch__header {
         font-size: 28px;
         font-style: normal;

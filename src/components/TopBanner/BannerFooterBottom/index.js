@@ -21,7 +21,7 @@ export default function BannerFooter() {
             r="18.5"
             transform="rotate(67.3529 44.6167 26.159)"
             stroke="white"
-            stroke-width="3"
+            strokeWidth="3"
           />
           <circle
             cx="30.3944"
@@ -57,7 +57,7 @@ export default function BannerFooter() {
           <path
             d="M2.14209 36.5408L8.25059 19.1835L19.4557 24.6969L24.0835 11.9893L37.4832 16.5054L43.1363 1.05944"
             stroke="#E7E7E7"
-            stroke-width="2.92615"
+            strokeWidth="2.92615"
           />
         </svg>
       </BannerFooterBottomCenter>
