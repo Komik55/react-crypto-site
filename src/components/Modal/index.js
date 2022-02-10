@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Title, Text, Button } from "../Elements";
 import { useState } from "react";
-
+import Tinkoff from "../Form";
 export const ModalWrap = styled.div`
   width: 100vw;
   height: 100vh;
@@ -114,6 +114,7 @@ export const ShadowY = styled.div`
 `;
 export default function Modal({ modal, setModal }) {
   const [appear, setAppear] = useState(false);
+
   return (
     <ModalWrap style={{ transform: `scale(${appear ? 0 : 1})` }}>
       <ModalContainer>
@@ -151,9 +152,7 @@ export default function Modal({ modal, setModal }) {
         <div className="btn__groups">
           <input type={"email"} placeholder="Email" required />
           <input type={"text"} placeholder="Имя" required />
-          <Button type="submit" style={{ width: "100%" }}>
-            Оплатить
-          </Button>
+          <Tinkoff />
           <Text style={{ textAlign: "center", width: "100%" }}>
             Нажимая на кнопку “Оплатить”, я даю согласия на обработку
             персональныъ данных
